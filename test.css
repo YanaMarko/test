@@ -1,0 +1,172 @@
+.body {
+  font-family: 'Open Sans';
+  color: white;
+  display: flex;
+  background-color: #A1A6BE;
+}
+.content {
+  max-width: 1200px;
+  min-width: 300px;
+}
+.menu {
+  font-size: 14px;/* дубль */
+  margin: 0;
+  padding: 28px 8px 0 10px;
+  background-color: #1F2339;
+  font-weight: 400;
+}
+.menu__btn {
+  max-width: 221px;
+  display: flex;
+  text-align: left;
+  margin: 0 0 26px 0;
+}
+.menu__btn-meetings {
+  margin-top: 94px;
+}
+.menu__btn::before {
+  padding-right: 12px;
+}
+.menu__btn-home::before {
+  content: url(./images/home-icon.svg);
+}
+.menu__btn-name::before {
+  content: url(./images/name-icon.svg);
+}
+.menu__btn-meetings::before {
+  content: url(./images/meetings-icon.svg);
+}
+.menu__btn-staff::before {
+  content: url(./images/staff-icon.svg);
+}
+.menu__btn-notes::before {
+  content: url(./images/notes-icon.svg);
+}
+.menu__btn-statistics::before {
+  content: url(./images/statistic-icon.svg);
+}
+.menu__btn-fertilizer::before {
+  content: url(./images/fertilize-icon.svg);
+}
+.menu__btn-weather::before {
+  content: url(./images/weather-icon.svg);
+}
+.menu__btn-organizations::before {
+  content: url(./images/organizations-icon.svg);
+}
+.header {
+  display: flex;
+  padding: 57px 78px 0 42px;
+}
+.header__title {
+  margin: 0;
+  font-size: 20px;
+}
+.header__add-btn {
+  margin: -2px 21px 0 auto;
+  background-image: url(./images/add-icon.svg);
+  height: 28px;
+  width: 28px;
+  background-size: cover;
+}
+.header__settings {
+  margin: -5px 0 0 1px;
+  background-image: url(./images/settings-icon.svg);
+  height: 33px;
+  width: 34px;
+}
+.main {
+  margin: 49px 79px 68px 40px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 230px;
+}
+.template {
+  min-width: 340px;
+  background-color: #383E57;
+  border-radius: 18px;
+  box-shadow: 7px 7px 8px rgba(0, 0, 0, 40%);
+}
+.template__title {
+  margin: 25px auto 0 21px;
+  font-size: 16px;
+}
+.template__weather {
+  font-size: 80px;
+  font-weight: 300;
+  display: flex;
+}
+.template__celsius {
+  font-size: 36px;
+  margin: 8px 0 0 0;
+}
+.template__subparagraph {
+  color:#A1A6BE;
+  font-size: 14px;
+  margin: 6px 0 0 0;
+}
+.template__img {
+  margin: 4px 2px 0 auto;
+}
+.template__content {
+  display: flex;
+  margin: 0 20px;
+}
+.template__map {
+  margin: 11px 0 0 -52px;
+}
+.template__phone-btn {
+  background-image: url(./images/phone-icon.svg);
+  height: 16px;
+  width: 16px;
+  margin: 6px 0 0 0px;
+}
+.template__mail-btn {
+  background-image: url(./images/mail-icon.svg);
+  height: 16px;
+  width: 19px;
+  background-repeat: no-repeat;
+  margin: 6px 0 0 20px;
+}
+.template__text {
+  display: grid;
+  grid-gap: 14px;
+  grid-template-columns: repeat(2, auto);
+  margin: 17px 40px 17px 20px;
+  justify-items: center;
+  align-items: center;
+}
+.menu__active, 
+.menu__btn:active,
+.template__button {
+  color: #43E8FF;
+  font-weight: 600;
+  font-size: 14px;
+}
+.template__paragraph {
+  margin: 10px 15px -6px 0;
+  font-size: 14px;
+}
+.template__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 11px 0 0;
+}
+.template__paragrapf-staff {
+  margin: 3px 0 0 0;
+}
+.template__staff {
+  padding: 0;
+  margin: 23px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+/* сверху всё вроде нормально, обоснованно */
+.template__button-staff {
+  margin: 46px 0 0 20px;
+  padding: 0;
+}
+.template__subparagraph-staff {
+  margin: 0 0 -12px 20px;
+}

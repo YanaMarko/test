@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./pages/test.css">
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+</head>
+
+<body class="body">
+    <ul class="menu">
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-home menu__active">Главная</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-name">Константин Константиновский</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-meetings">Мероприятия</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-staff">Сотрудники</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-notes">Заметки</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-statistics">Статистика</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-fertilizer">Удобрения</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-weather">Погода</button></li>
+        <li class="menu__paragraph"><button class="menu__btn menu__btn-organizations">Организации</button></li>
+    </ul>
+    <div class="content">
+        <header class="header">
+            <h1 class="header__title">ИП Васильев</h1>
+            <button class="header__add-btn"></button>
+            <button class="header__settings"></button>
+        </header>
+        <main class="main">
+            <section class="template">
+                <h2 class="template__title">Работа с полями</h2>
+                <div class="template__content">
+                    <img class="template__img" src="./images/image.svg" alt="картинка">
+                </div>
+            </section>
+            <section class="template">
+                <h2 class="template__title">Статистика урожая</h2>
+                <div class="template__content">
+                    <h3 class="template__subtitle">Поволжье</h3>
+                    <img class="template__map" src="./images/map.svg" alt="карта РФ">
+                </div>
+            </section>
+            <section class="template">
+                <h2 class="template__title">Погода в Курской области</h2>
+                <div class="template__text">
+                    <div class="template__subtitle">
+                        <!-- судя по названию класса, template__subtitle должен быть h3 -->
+                        <p class="template__paragraph">28.08.2020</p>
+                        <p class="template__paragraph">Среда</p>
+                    </div>
+                    <div class="template__weather">+28
+                        <p class="template__celsius">°C</p>
+                    </div>
+
+                    <div class="template__subparagraphs">
+                        <p class="template__subparagraph">750 мм рт. ст.</p>
+                        <p class="template__subparagraph">3,5 м/с</p>
+                    </div>
+                    <div class="template__subparagraphs">
+                        <p class="template__subparagraph">Солнечно</p>
+                        <p class="template__subparagraph">Осадки 7%</p>
+                    </div>
+                </div>
+            </section>
+            <section class="template">
+                <h2 class="template__title">Отчёты и статистика</h2>
+                <div class="template__content">
+                    <img class="template__img" src="./images/line-chart-icon.svg" alt="линейная диаграмма">
+                </div>
+            </section>
+            <section class="template">
+                <h2 class="template__title">Сотрудники</h2>
+                <ul class="template__staff">
+                    <li class="template__paragraph template__paragrapf-staff"> Иванов Иван Иванович</li>
+                    <div class="template__btns">
+                        <button class="template__phone-btn"></button>
+                        <button class="template__mail-btn"></button>
+                    </div>
+                </ul>
+                <p class="template__subparagraph template__subparagraph-staff">Заместитель</p>
+                <ul class="template__staff">
+                    <li class="template__paragraph template__paragrapf-staff"> Константинов Иван Иванович</li>
+                    <div class="template__btns">
+                        <button class="template__phone-btn"></button>
+                        <button class="template__mail-btn"></button>
+                    </div>
+                </ul>
+                <p class="template__subparagraph template__subparagraph-staff">Секретарь</p>
+                <button class="template__button template__button-staff">Показать ещё</button>
+            </section>
+            <section class="template">
+                <h2 class="template__title">Статистика пшена на полях ЦАО</h2>
+                <div class="template__content">
+                    <img class="template__img" src="./images/pie-chart-icon.svg" alt="круговая диаграмма">
+                </div>
+            </section>
+            <section class="template">
+                <h2 class="template__title">Арендуемая техника</h2>
+                <div class="template__content">
+                    <img class="template__img" src="./images/chart.svg" alt="картинка">
+                    <ul class="template__text">
+                        <li class="template__title">Экскаваторы 2020
+                            <p class="template__subparagraph">15 100 машин</p>
+                            <p class="template__subparagraph">130 областей</p>
+                            <p class="template__subparagraph">5 предприятий</p>
+                        </li>
+                    </ul>
+                    <button class="template__button">Добавить технику</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./scripts/"></script>
+</body>
+
+</html>
