@@ -9,7 +9,7 @@
   min-width: 300px;
 }
 .menu {
-  font-size: 14px;/* дубль */
+  font-size: 14px;
   margin: 0;
   padding: 28px 8px 0 10px;
   background-color: #1F2339;
@@ -79,7 +79,7 @@
   margin: 49px 79px 68px 40px;
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 230px;
 }
 .template {
@@ -132,7 +132,7 @@
 .template__text {
   display: grid;
   grid-gap: 14px;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   margin: 17px 40px 17px 20px;
   justify-items: center;
   align-items: center;
@@ -162,42 +162,76 @@
   display: flex;
   justify-content: space-between;
 }
-.template-reports {
+.template-reports-grid {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
+  position: relative;
 }
 .template__button-staff {
   margin: 46px 0 0 20px;
   padding: 0;
 }
-.table__head {
+.table-head {
   font-weight: normal;
 }
-/* сверху всё вроде нормально, обоснованно */
-.template__subparagraph-staff {
-  margin: 0 0 -12px 20px;
-}
-.template-statistic {
-  grid-column-start: 1;
-  grid-column-end: 2.5;
-}
-.template__img-reports {
-}
-.template__content-reports {
-  margin: 0 40px 25px 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row; 
-}
-.table__body {
-  border-collapse: collapse;
-}
-.table__head {
-  padding: 0;
-  padding-right: 10px;
-}
-.table__data {
+.table-data {
   border: 1px solid #151E41;
   border-left: none;
   border-bottom: none;
+  padding: 10px 12px;
+}
+.template__subparagraph-staff {
+  margin: 0 0 -12px 20px;
+}
+/* сверху всё вроде нормально, обоснованно */
+.template-statistic-grid {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.template-fields-grid {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.template-harvest-grid {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.template-weather-grid {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.template-staff-grid {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.template-technique-grid {
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+.template__img-reports {
+  position: absolute;
+  top: 15px;
+  right: 45px;
+  bottom: 25px;
+}
+.template__content-reports {
+  margin: 0 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row; 
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+.table-body {
+  margin: 14px 0 19px 7px;
+}
+.table-head {
+  text-align: left;
+  padding: 6px 8px 0px 14px;
+}
+.table-right-border {
+  border-right: none;
+}
+.table-elements {
+  text-align: center;
 }
