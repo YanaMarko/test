@@ -107,14 +107,14 @@
   margin: 6px 0 0 0;
 }
 .template__img {
-  margin: 4px 2px 0 auto;
+  margin: 2px 3px 0 auto;
 }
 .template__content {
   display: flex;
   margin: 0 20px;
 }
 .template__map {
-  margin: 11px 0 0 -52px;
+  margin: 8px 0 0 -52px;
 }
 .template__phone-btn {
   background-image: url(./images/phone-icon.svg);
@@ -183,8 +183,8 @@
 .template__subparagraph-staff {
   margin: 0 0 -12px 20px;
 }
-/* сверху всё вроде нормально, обоснованно */
 .template-statistic-grid {
+  position: relative;
   grid-column-start: 1;
   grid-column-end: 4;
 }
@@ -210,8 +210,8 @@
 }
 .template__img-reports {
   position: absolute;
-  top: 15px;
-  right: 45px;
+  top: 18px;
+  right: 42px;
   bottom: 25px;
 }
 .template__content-reports {
@@ -234,4 +234,50 @@
 }
 .table-elements {
   text-align: center;
+}
+/* сверху всё вроде нормально, обоснованно */
+.template__content-statistic {
+  margin: 26px 0 0 0;
+}
+.arrow-down-icon {
+  width: 15px;
+  height: 8px;
+  margin: 0 0 0 7px;
+}
+.template-statistic-btn {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+}
+.template-statistic-img {
+  position: absolute;
+  top: 45px;
+  right: 69px;
+}
+.statistic-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  margin: 0 0 13px 16px;
+}
+.stattistic-value {
+  background-image: url(./images/statistic-value-icon.svg);
+  height: 14px;
+  width: 14px;
+  border: #383E57;
+}
+.stattistic-second-value {
+  background-image: url(./images/statistic-second-value-icon.svg);
+  height: 14px;
+  width: 14px;
+  border: #383E57;
+}
+.statistic-second-decoration {
+  list-style-image: url(./images/statistic-second-value-icon.svg);
+}
+.statistic-decoration {
+  list-style-image: url(./images/statistic-value-icon.svg);
+}
+.statistic-subparagraph {
+  margin: 7px 0 0 16px;
 }
