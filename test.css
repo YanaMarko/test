@@ -2,7 +2,7 @@
   font-family: 'Open Sans';
   color: white;
   display: flex;
-  background-color: #A1A6BE;
+  background-color: #74788b;
 }
 .content {
   max-width: 1200px;
@@ -205,6 +205,7 @@
   grid-column-end: 7;
 }
 .template-technique-grid {
+  position: relative;
   grid-column-start: 4;
   grid-column-end: 7;
 }
@@ -258,7 +259,7 @@
   font-weight: 700;
   font-size: 14px;
   color: white;
-  margin: 0 0 13px 16px;
+  margin: 0 0 10px 16px;
 }
 .stattistic-value {
   background-image: url(./images/statistic-value-icon.svg);
@@ -280,4 +281,20 @@
 }
 .statistic-subparagraph {
   margin: 7px 0 0 16px;
+}
+.star-icon {
+  margin: 0 0 0 15px;
+}
+.technique-chart {
+  position: absolute;
+  top: 50px;
+  right: 1px;
+  width: 317px;
+  height: 211px;
+}
+.technique-subtitle {
+  margin: 23px 0 -6px 21px;
+}
+.technique-btn {
+  margin: 15px 0 26px 15px;
 }
