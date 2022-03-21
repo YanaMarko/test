@@ -2,5 +2,5 @@
     margin-top: 94px;
 }
 .menu__btn-meetings::before {
-    content: url(./images/meetings-icon.svg);
+    content: url(../../../images/meetings-icon.svg);
 }

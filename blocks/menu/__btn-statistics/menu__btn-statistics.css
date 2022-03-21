@@ -1,3 +1,3 @@
 .menu__btn-statistics::before {
-    content: url(./images/statistic-icon.svg);
+    content: url(../../../images/statistic-icon.svg);
 }
