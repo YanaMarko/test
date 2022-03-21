@@ -1,0 +1,5 @@
+.template-technique-grid {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}

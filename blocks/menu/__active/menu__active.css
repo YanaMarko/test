@@ -1,0 +1,8 @@
+.menu__active, 
+.menu__btn:active,
+.template__button {
+  color: #43E8FF;
+  font-weight: 600;
+  font-size: 14px;
+}
+/* не хотела так делать, но распутывать это, тем самым дублируя стили, не хочется */

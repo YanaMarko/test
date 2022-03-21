@@ -1,0 +1,6 @@
+.template__phone-btn {
+    background-image: url(./images/phone-icon.svg);
+    height: 16px;
+    width: 16px;
+    margin: 6px 0 0 0px;
+}

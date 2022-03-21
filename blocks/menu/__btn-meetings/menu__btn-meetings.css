@@ -1,0 +1,6 @@
+.menu__btn-meetings {
+    margin-top: 94px;
+}
+.menu__btn-meetings::before {
+    content: url(./images/meetings-icon.svg);
+}

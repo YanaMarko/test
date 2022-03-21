@@ -1,0 +1,6 @@
+.template {
+    min-width: 340px;
+    background-color: #383E57;
+    border-radius: 18px;
+    box-shadow: 7px 7px 8px rgba(0, 0, 0, 40%);
+}

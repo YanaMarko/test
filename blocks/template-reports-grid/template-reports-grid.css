@@ -1,0 +1,5 @@
+.template-reports-grid {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    position: relative;
+}

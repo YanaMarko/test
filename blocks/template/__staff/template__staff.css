@@ -1,0 +1,6 @@
+.template__staff {
+    padding: 0;
+    margin: 23px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}

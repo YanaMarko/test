@@ -1,0 +1,5 @@
+.template__weather {
+    font-size: 80px;
+    font-weight: 300;
+    display: flex;
+}

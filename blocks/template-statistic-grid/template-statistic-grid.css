@@ -1,0 +1,5 @@
+.template-statistic-grid {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

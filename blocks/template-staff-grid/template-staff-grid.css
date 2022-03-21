@@ -1,0 +1,4 @@
+.template-staff-grid {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
