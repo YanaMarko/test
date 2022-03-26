@@ -5,3 +5,9 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 230px;
 }
+@media screen and (max-width: 762px) {
+    .main {
+      margin: 49px auto 68px;  
+      grid-template-columns: 1fr;
+    }
+}

@@ -4,3 +4,8 @@
     display: flex;
     background-color: #74788b;
 }
+@media screen and (max-width: 1000px) {
+    .body {
+      flex-direction: column;
+    }
+}
