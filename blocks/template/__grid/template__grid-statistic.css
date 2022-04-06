@@ -1,0 +1,14 @@
+.template__grid-statistic {
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+@media screen and (max-width: 440px) {
+  .template__grid-statistic {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 22;
+    grid-row-end: 26;
+  }
+}

@@ -1,0 +1,14 @@
+.template__grid-technique {
+  position: relative;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+@media screen and (max-width: 440px) {
+  .template__grid-technique {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 27;
+    grid-row-end: 31;
+  }
+}

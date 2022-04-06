@@ -25,128 +25,138 @@
         <header class="header">
             <h1 class="header__title">ИП Васильев</h1>
             <button class="header__add-btn"></button>
-            <button class="header__settings"></button>
+            <button class="header__settings-btn"></button>
         </header>
         <main class="main">
-            <section class="template template-fields-grid">
-                <h2 class="template__title">Работа с полями</h2>
+            <section class="template template__grid-fields">
                 <div class="template__content">
+                    <h2 class="template__title">Работа с полями</h2>
                     <img class="template__img" src="./images/field.svg" alt="картинка">
                 </div>
             </section>
-            <section class="template template-harvest-grid">
-                <h2 class="template__title">Статистика урожая</h2>
+            <section class="template template__grid-harvest">
                 <div class="template__content">
+                    <h2 class="template__title">Статистика урожая</h2>
                     <h3 class="template__subtitle">Поволжье</h3>
                     <img class="template__map" src="./images/map.svg" alt="карта РФ">
                 </div>
             </section>
-            <section class="template template-weather-grid">
-                <h2 class="template__title">Погода в Курской области</h2>
-                <div class="template__text">
-                    <div class="template__subtitle">
-                        <p class="template__paragraph">28.08.2020</p>
-                        <p class="template__paragraph">Среда</p>
-                    </div>
-                    <div class="template__weather">+28
-                        <p class="template__celsius">°C</p>
-                    </div>
-                    <div class="template__subparagraphs">
-                        <p class="template__subparagraph">750 мм рт. ст.</p>
-                        <p class="template__subparagraph">3,5 м/с</p>
-                    </div>
-                    <div class="template__subparagraphs">
-                        <p class="template__subparagraph">Солнечно</p>
-                        <p class="template__subparagraph">Осадки 7%</p>
+            <section class="template template__grid-weather">
+                <div class="template__content">
+                    <h2 class="template__title">Погода в Курской области</h2>
+                    <div class="template__text">
+                        <div class="template__subtitle">
+                            <p class="template__paragraph">28.08.2020</p>
+                            <p class="template__paragraph">Среда</p>
+                        </div>
+                        <div class="template__weather">+28
+                            <p class="template__celsius">°C</p>
+                        </div>
+                        <div class="template__subparagraphs">
+                            <p class="template__subparagraph">750 мм рт. ст.</p>
+                            <p class="template__subparagraph">3,5 м/с</p>
+                        </div>
+                        <div class="template__subparagraphs">
+                            <p class="template__subparagraph">Солнечно</p>
+                            <p class="template__subparagraph">Осадки 7%</p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="template template-reports-grid">
-                <h2 class="template__title">Отчёты и статистика</h2>
-                <div class="template__content-reports">
-                    <table class="table-body">
-                        <tr class="table-elements">
-                            <th class="table-head">2020 год</th>
-                            <th class="table-head">2019 год</th>
-                            <th class="table-head">2018 год</th>
-                        </tr>
-                        <tr class="table-elements">
-                            <td class="table-data">123 000 000 ₽</td>
-                            <td class="table-data">90 568 666 ₽</td>
-                            <td class="table-data table-right-border">200 568 666 ₽</td>
-                        </tr>
-                        <tr class="table-elements">
-                            <td class="table-data">123 587 569 ₽</td>
-                            <td class="table-data">123 587 569 ₽</td>
-                            <td class="table-data table-right-border">123 587 569 ₽</td>
-                        </tr>
-                        <tr class="table-elements">
-                            <td class="table-data">258 654 588 ₽</td>
-                            <td class="table-data">258 654 588 ₽</td>
-                            <td class="table-data table-right-border">258 654 588 ₽</td>
-                        </tr>
-                    </table>
-                    <img class="template__img-reports" src="./images/line-chart-icon.svg" alt="линейная диаграмма">
+            <section class="template template__grid-reports">
+                <div class="template__content">
+                    <h2 class="template__title">Отчёты и статистика</h2>
+                    <div class="template__content-reports">
+                        <table class="table__body">
+                            <tr class="table__elements">
+                                <th class="table__head">2020 год</th>
+                                <th class="table__head">2019 год</th>
+                                <th class="table__head">2018 год</th>
+                            </tr>
+                            <tr class="table__elements">
+                                <td class="table__data">123 000 000 ₽</td>
+                                <td class="table__data">90 568 666 ₽</td>
+                                <td class="table__data">200 568 666 ₽</td>
+                            </tr>
+                            <tr class="table__elements">
+                                <td class="table__data">123 587 569 ₽</td>
+                                <td class="table__data">123 587 569 ₽</td>
+                                <td class="table__data">123 587 569 ₽</td>
+                            </tr>
+                            <tr class="table__elements">
+                                <td class="table__data">258 654 588 ₽</td>
+                                <td class="table__data">258 654 588 ₽</td>
+                                <td class="table__data">258 654 588 ₽</td>
+                            </tr>
+                        </table>
+                        <img class="template__img-reports" src="./images/line-chart-icon.svg" alt="линейная диаграмма">
+                    </div>
                 </div>
             </section>
-            <section class="template template-staff-grid">
-                <h2 class="template__title">Сотрудники</h2>
-                <ul class="template__staff">
-                    <li class="template__paragraph template__paragrapf-staff"> Иванов Иван Иванович</li>
-                    <div class="template__btns">
-                        <button class="template__phone-btn"></button>
-                        <button class="template__mail-btn"></button>
-                    </div>
-                </ul>
-                <p class="template__subparagraph-staff">Заместитель</p>
-                <ul class="template__staff">
-                    <li class="template__paragraph template__paragrapf-staff"> Константинов Иван Иванович</li>
-                    <div class="template__btns">
-                        <button class="template__phone-btn"></button>
-                        <button class="template__mail-btn"></button>
-                    </div>
-                </ul>
-                <p class="template__subparagraph-staff">Секретарь</p>
-                <button class="template__button template__button-staff">Показать ещё</button>
-            </section>
-            <section class="template template-statistic-grid">
-                <h2 class="template__title">Статистика пшена на полях ЦАО</h2>
-                <button class="template__button template-statistic-btn">По годам<img class="arrow-down-icon"
-                        src="./images/arrow-down-icon.svg" alt="стелка вниз"></button>
-                <div class="template__content-statistic">
-                    <ul>
-                        <li class="statistic-decoration">
-                            <h4 class="statistic-title">Урожай 2020</h4>
-                        </li>
-                        <li class="statistic-subparagraph">15 150 000 тонн</li>
-                        <li class="statistic-subparagraph">120 областей</li>
+            <section class="template template__grid-staff">
+                <div class="template__content">
+                    <h2 class="template__title">Сотрудники</h2>
+                    <ul class="template__staff">
+                        <li class="template__paragraph template__paragrapf-staff"> Иванов Иван Иванович</li>
+                        <div class="template__btns">
+                            <button class="template__phone-btn"></button>
+                            <button class="template__mail-btn"></button>
+                        </div>
                     </ul>
-                    <ul>
-                        <li class="statistic-second-decoration">
-                            <h4 class="statistic-title">Урожай 2019</h4>
-                        </li>
-                        <li class="statistic-subparagraph">102 650 980 тонн</li>
-                        <li class="statistic-subparagraph">250 областей</li>
+                    <p class="template__subparagraph-staff">Заместитель</p>
+                    <ul class="template__staff">
+                        <li class="template__paragraph template__paragrapf-staff"> Константинов Иван Иванович</li>
+                        <div class="template__btns">
+                            <button class="template__phone-btn"></button>
+                            <button class="template__mail-btn"></button>
+                        </div>
                     </ul>
+                    <p class="template__subparagraph-staff">Секретарь</p>
+                    <button class="template__button">Показать ещё</button>
                 </div>
-                <img class="template-statistic-img" src="./images/pie-chart-icon.svg" alt="круговая диаграмма">
             </section>
-            <section class="template template-technique-grid">
-                <h2 class="template__title">Арендуемая техника<img class="star-icon" src="./images/star-icon.svg"
-                        alt="иконка звезды"></h2>
-                <h3 class="technique-subtitle">ООО “Магнат Мед”</h3>
-                <div class="template__content-statistic">
-                    <ul>
-                        <li class="statistic-decoration">
-                            <h4 class="statistic-title">Экскаваторы 2020</h4>
-                        </li>
-                        <li class="statistic-subparagraph">15 100 машин</li>
-                        <li class="statistic-subparagraph">130 областей</li>
-                        <li class="statistic-subparagraph">5 предприятий</li>
-                    </ul>
+            <section class="template template__grid-statistic">
+                <div class="template__content">
+                    <h2 class="template__title">Статистика пшена на полях ЦАО</h2>
+                    <button class="template__button">По годам<img class="icon__arrow-down"
+                            src="./images/arrow-down-icon.svg" alt="стелка вниз"></button>
+                    <div class="template__content-statistic">
+                        <ul>
+                            <li class="statistic__decoration">
+                                <h4 class="statistic__title">Урожай 2020</h4>
+                            </li>
+                            <li class="statistic__subparagraph">15 150 000 тонн</li>
+                            <li class="statistic__subparagraph">120 областей</li>
+                        </ul>
+                        <ul>
+                            <li class="statistic__second-decoration">
+                                <h4 class="statistic__title">Урожай 2019</h4>
+                            </li>
+                            <li class="statistic__subparagraph">102 650 980 тонн</li>
+                            <li class="statistic__subparagraph">250 областей</li>
+                        </ul>
+                    </div>
+                    <img class="template__statistic-img" src="./images/pie-chart-icon.svg" alt="круговая диаграмма">
                 </div>
-                <button class="template__button technique-btn">Добавить технику</button>
-                <img class="technique-chart" src="./images/chart.png" alt="картинка">
+            </section>
+            <section class="template template__grid-technique">
+                <div class="template__content">
+                    <h2 class="template__title">Арендуемая техника<img class="icon__star" src="./images/star-icon.svg"
+                            alt="иконка звезды"></h2>
+                    <h3 class="technique__subtitle">ООО “Магнат Мед”</h3>
+                    <div class="template__content-statistic">
+                        <ul>
+                            <li class="statistic__decoration">
+                                <h4 class="statistic__title">Экскаваторы 2020</h4>
+                            </li>
+                            <li class="statistic__subparagraph">15 100 машин</li>
+                            <li class="statistic__subparagraph">130 областей</li>
+                            <li class="statistic__subparagraph">5 предприятий</li>
+                        </ul>
+                    </div>
+                    <button class="template__button">Добавить технику</button>
+                    <img class="technique__chart" src="./images/chart.png" alt="картинка">
+                </div>
             </section>
         </main>
     </div>

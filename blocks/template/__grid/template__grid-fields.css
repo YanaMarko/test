@@ -1,0 +1,11 @@
+.template__grid-fields {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media screen and (max-width: 1000px) {
+    .template__grid-fields {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}

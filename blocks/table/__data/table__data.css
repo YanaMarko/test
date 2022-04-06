@@ -1,0 +1,10 @@
+.table__data {
+    border: 1px solid #151E41;
+    border-left: none;
+    border-bottom: none;
+    padding: 10px 12px;
+}
+
+.table__data:nth-child(3n) {
+    border-right: none;
+}

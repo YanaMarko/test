@@ -1,0 +1,6 @@
+.header__settings-btn {
+    margin: -5px 0 0 1px;
+    background-image: url(../../../images/settings-icon.svg);
+    height: 33px;
+    width: 34px;
+}
